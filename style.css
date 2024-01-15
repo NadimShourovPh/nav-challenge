@@ -1,0 +1,147 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-image: url(nav.jpg);
+    height: 320px;
+}
+.highlight{
+    background-color: #FFB300;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 1.2rem;
+}
+.menubar{
+padding: 25px;
+font-size: 1.2rem;
+background-color: #F7F7F7;
+}
+.menubar ul {
+    vertical-align: middle;
+}
+
+.menubar ul li {
+    display: inline-block;
+ 
+}
+.menubar ul li:first-child {
+  margin-left: 80px;
+ 
+}
+.menubar ul li:nth-child(2) {
+    margin-left: 400px;
+   
+  }
+  .menubar ul li:nth-child(3) {
+    margin-left: 50px;
+   
+  }
+  .menubar ul li:nth-child(4) {
+    margin-left: 50px;
+   
+  }
+  .menubar ul li:nth-child(5) {
+    margin-left: 50px;
+   
+  }
+  .menubar ul li:nth-child(6) {
+    margin-left: 50px;
+   
+  }
+.menubar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.information{
+    padding: 25px;
+    font-size: 20px;
+}
+.information ul{
+  vertical-align: middle;
+}
+.information ul li:first-child{
+    margin-left: 80px;
+  
+}
+.information ul li{
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: middle;
+}
+.information ul li a{
+ text-decoration: none;
+}
+.information>ul li:nth-child(2){
+ width: 38%;
+ padding: 15px;
+ margin-left: 90px;
+ border-radius: 5px;
+}
+.information ul li:nth-child(3){
+    margin-left: 65px;
+   }
+   .information ul li:nth-child(4){
+    margin-left: 30px;
+    margin-right: 5px;
+   }
+   .information ul li:nth-child(6){
+    margin-left: 65px;
+    margin-right: 5px;
+   }
+   .information ul li:nth-child(8){
+    margin-left: 50px;
+    margin-right: 5px;
+   }
+.information ul li:nth-child(2) input::placeholder{
+  text-align: center;
+}
+.product-menu{
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.product-menu div{
+    display: inline-block;
+
+}
+.product-menu div{
+    display: inline-block;
+  
+  
+}
+.product-menu div:nth-child(1){
+    margin-left: 80px;
+}
+.product-menu div:nth-child(2){
+    margin-left: 30px;
+}
+.product-menu div:nth-child(3){
+    margin-left: 20px;
+}
+.product-menu div:nth-child(4){
+    margin-left: 20px;
+}
+.product-menu div:nth-child(5){
+    margin-left: 20px;
+}
+.product-menu div:nth-child(6){
+    margin-left: 30px;
+}
+.product-menu div:nth-child(7){
+    margin-left: 30px;
+}
+
+.product-menu div:hover{
+    border-bottom: 3px solid blue;
+}
+.product-menu div span{
+    vertical-align: middle;
+}
+
+  
